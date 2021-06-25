@@ -1,0 +1,42 @@
+html,body{
+	
+	background-image: url('images/back.jpg');
+ }
+ .logo{
+ 	height: 500px;
+ 	width: 500px;
+ }
+ .mediaImg{
+ 	margin-top: 5px;
+ 	width: 50px;
+ 	height: 50px;
+ }
+ .about{
+ 	position: absolute;
+ 	left:0;
+ 	right:0;
+ 	margin: 0 auto;
+ 	margin-top: 510px;
+ 	width: 500px;
+ }
+ .logo{
+
+ 	position: absolute;
+ 	left:0;
+ 	right:0;
+ 	margin: 0 auto;
+ }
+ section{
+ 	display: block;
+ }
+ .p-1 { /* Внешний вид кнопки */
+	color: #524E49; /* Цвет текста */
+	/*background: #fdeaa8 ; /* Фоновый цвет */
+	padding: 10px; /* Минимальный отступ текста от границ кнопки. Определяет размер кнопки */
+	font-size: 20px; /* Размер текста */
+	border-radius: 5px; /* Радиус закругления уголков */
+	box-shadow: 0px 1px 3px; /* Тень */
+	}
+	.p-1:hover { /* Преображение при наведении */
+	background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #fdeaa8,#777); /* Радиальный градиент, переход цвета от центра к краям */
+	}
